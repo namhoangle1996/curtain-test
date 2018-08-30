@@ -1,0 +1,22 @@
+@mixin background255($opa){
+  background: rgba(255, 255, 255, $opa);
+}
+@mixin background0($opa){
+  background: rgba(0, 0, 0, $opa);
+}
+@mixin widthcenter{
+  width : 375px;
+  margin: auto;
+}
+
+@mixin backgroundopa($op){
+    background: rgba(200, 200, 200, $op);
+}
+@mixin boxshad{
+  box-shadow: 0px 2px 10px 2px rgba(224, 224, 224, 0.4);
+}
+@mixin positonabtl($top, $left){
+  position: absolute;
+  top: $top;
+  left: $left;
+}

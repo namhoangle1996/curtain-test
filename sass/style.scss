@@ -1,0 +1,22 @@
+@import "main";
+@import "variables";
+@import "mixins";
+@import "enter-key";
+@import "enter-pass";
+@import "switch-user";
+@import "more-three";
+@import "a8-room-empty";
+@import "g8-room-list";
+@import "a8-room-gird";
+@import "a8-room-details";
+@import "a8-room-addnew";
+@import "h822-add-devices";
+@import "a9-home";
+@import "b6-empty-nofiticantion";
+@import "a5-switch-config";
+@import "h81-list-group";
+*{
+  @include background0(0.0);
+}
+
+
